@@ -14,7 +14,7 @@ let a=['a','b']
 let b=a.constructor;
 console.log(b)
 console.log("3.copyWithin()")
-var alpha=['a','b','c','d','e','f']
+let alpha=['a','b','c','d','e','f']
 console.log(alpha.copyWithin(0,1,4))
 // b c d d e f  
 console.log(alpha)
@@ -133,7 +133,7 @@ numb7.push(5,8)
 console.log(numb7)
 
 console.log("23.Prototype")
-arr =[];
+let arr =[];
 
 function dis(n){
     this.arr=n;
@@ -151,7 +151,8 @@ let numb11=numb7.reduceRight(function(a,b){
 console.log(numb11)
 console.log("25.Reverse()")
 
-let numb12=numb7.reverse();
+let numb12;
+numb12=numb7.reverse();
 console.log(numb12)
 
 console.log("26.Shift()")
@@ -180,12 +181,14 @@ let h=numb15.some(function(a)
 
 console.log(h)
 console.log("30.sort()")
-let numb13=numb7.sort()
+let numb13;
+numb13=numb7.sort()
 console.log(numb13)
 console.log("Sort Reverse :")
-let numb14=numb7.sort(function(a,b)
-{return b-a
-})
+let numb14;
+numb14=numb7.sort((a,b)=>
+ b-a
+)
 console.log(numb14);
 
 console.log("31.Splice()")
