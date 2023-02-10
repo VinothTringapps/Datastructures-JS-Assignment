@@ -186,7 +186,7 @@ console.log("30.sort()")
 let numb13;
 let nu10;
 nu10 = [2,5,1,4,7,9];
-numb13=nu10.sort()
+numb13=nu10.sort((a,b)=>a-b)
 console.log(numb13)
 console.log("Sort Reverse :")
 
