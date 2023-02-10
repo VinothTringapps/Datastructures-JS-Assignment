@@ -181,10 +181,16 @@ let h=numb15.some(function(a)
 
 console.log(h)
 console.log("30.sort()")
+
+//Sorting
 let numb13;
-numb13=numb7.sort()
+let nu10;
+nu10 = [2,5,1,4,7,9];
+numb13=nu10.sort()
 console.log(numb13)
 console.log("Sort Reverse :")
+
+
 let numb14;
 numb14=numb7.sort((a,b)=>
  b-a
