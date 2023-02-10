@@ -186,15 +186,13 @@ console.log("30.sort()")
 let numb13;
 let nu10;
 nu10 = [2,5,1,4,7,9];
-numb13=nu10.sort((a,b)=>a-b)
+numb13=nu10.sort((a,b)=>a-b))
 console.log(numb13)
 console.log("Sort Reverse :")
 
 
 let numb14;
-numb14=numb7.sort((a,b)=>
- b-a
-)
+numb14=numb7.sort((a,b)=>b-a))
 console.log(numb14);
 
 console.log("31.Splice()")
